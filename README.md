@@ -124,7 +124,4 @@
   <a href="https://dev.to/arshdeep_palial_c966081e6">
     <img src="https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white" alt="dev.to" />
   </a>
-  <a href="https://your-portfolio.com">
-    <img src="https://img.shields.io/badge/Portfolio-222222?style=for-the-badge&logo=aboutdotme&logoColor=white" alt="Portfolio" />
-  </a>
 </p>
