@@ -29,13 +29,21 @@
 
 <h3 align="center">👨‍💻 About Me</h3>
 
+I'm a software engineer who cares most about how things work beneath the surface. To me, design was never about how something *looks* — it's about how a system holds up when it actually matters.
+
+I start with the user, and often that user is me. Picture someone opening a site at the exact moment they need it most: a single delayed button click is enough to break their trust. That small moment is everything, and I build systems so that it never breaks.
+
+Most of my projects begin with a problem in my own life. I build to remove friction I personally feel, because that's where my best ideas come from — real problems, real solutions. Lately that work centers on **backend systems** and **AI**: I specialize in **Conversational AI** and **Generative AI**, wiring LLMs into products that stay reliable under real use, not just in a demo.
+
+**What I work with**
+- **Backend:** Python (Django, FastAPI), Node.js, Go / Gin, C++
+- **Frontend:** React.js
+- **Infrastructure:** AWS, serverless
+
+What I'm looking for is simple: people who refuse to compromise on quality — who build thoughtful design *and* solid systems because they genuinely care about the person on the other side of the screen. If that sounds like the way you think, **let's connect.**
+
 <p align="center">
-  💡 Software engineer focused on <b>backend systems</b> and <b>AI-powered applications</b><br>
-  🤖 Specialist in <b>Conversational AI</b> and <b>Generative AI</b> — <!-- EDIT: e.g. chatbots, RAG, LLM voice agents --><br>
-  ⚙️ I ship full-stack products end to end, from API to UI to cloud<br>
-  🔭 Currently building <b>ANet</b> — <!-- EDIT: one line on what ANet does --><br>
-  💼 Open to <b>Software Engineer</b> roles and internships<br>
-  📫 Reach me at <b>your.email@example.com</b> <!-- EDIT -->
+  🔭 Currently building <b>ANet</b> &nbsp;·&nbsp; 💼 Open to <b>Software Engineer</b> roles &amp; internships &nbsp;·&nbsp; 📫 <b>your.email@example.com</b> <!-- EDIT -->
 </p>
 
 ---
