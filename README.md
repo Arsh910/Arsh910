@@ -43,7 +43,7 @@ Most of my projects begin with a problem in my own life. I build to remove frict
 What I'm looking for is simple: people who refuse to compromise on quality — who build thoughtful design *and* solid systems because they genuinely care about the person on the other side of the screen. If that sounds like the way you think, **let's connect.**
 
 <p align="center">
-  🔭 Currently building <b>ANet</b> &nbsp;·&nbsp; 💼 Open to <b>Software Engineer</b> roles &amp; internships &nbsp;·&nbsp; 📫 <b>arshdeeppalial@gmail.com</b> <!-- EDIT -->
+  🔭 Currently building <b>ANet</b> &nbsp;·&nbsp; 💼 Open to <b>Software Engineer</b> roles &amp; internships &nbsp;·&nbsp; 📫 <b>your.email@example.com</b> <!-- EDIT -->
 </p>
 
 ---
@@ -57,12 +57,12 @@ What I'm looking for is simple: people who refuse to compromise on quality — w
   Keep the markers. The lines between them are a seed shown until the action runs.
 -->
 <!-- PINNED:START -->
-<p align="center">  
+<p align="center">
   <a href="https://github.com/Arsh910/Anet">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Arsh910&repo=Anet&theme=tokyonight&hide_border=true" alt="Anet" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Arsh910&repo=Anet&theme=tokyonight&hide_border=true&v=1" alt="Anet" />
   </a>
   <a href="https://github.com/Arsh910/AnetPacks">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Arsh910&repo=AnetPacks&theme=tokyonight&hide_border=true" alt="AnetPacks" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Arsh910&repo=AnetPacks&theme=tokyonight&hide_border=true&v=1" alt="AnetPacks" />
   </a>
 </p>
 <!-- PINNED:END -->
