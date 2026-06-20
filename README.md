@@ -40,26 +40,24 @@
 
 ---
 
-<h3 align="center">📌 Featured Projects</h3>
+<h3 align="center">📌 Pinned Projects</h3>
 
-<!-- These render as clickable repo cards. Swap the repo= names for whichever
-     repos you want to feature. Order them best-first. -->
+<!--
+  The cards below are auto-synced from your GitHub PINNED repos by the
+  "sync-pinned-repos" GitHub Action. Whenever you change your pins on your
+  profile, the action rewrites everything between the PINNED markers.
+  Keep the markers. The lines between them are a seed shown until the action runs.
+-->
+<!-- PINNED:START -->
 <p align="center">
   <a href="https://github.com/Arsh910/Anet">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=Arsh910&repo=Anet&theme=tokyonight&hide_border=true" alt="Anet" />
   </a>
-  <a href="https://github.com/Arsh910/RandomVideo-Chat-app">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Arsh910&repo=RandomVideo-Chat-app&theme=tokyonight&hide_border=true" alt="RandomVideo-Chat-app" />
+  <a href="https://github.com/Arsh910/AnetPacks">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Arsh910&repo=AnetPacks&theme=tokyonight&hide_border=true" alt="AnetPacks" />
   </a>
 </p>
-<p align="center">
-  <a href="https://github.com/Arsh910/collabus">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Arsh910&repo=collabus&theme=tokyonight&hide_border=true" alt="collabus" />
-  </a>
-  <a href="https://github.com/Arsh910/eco2">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Arsh910&repo=eco2&theme=tokyonight&hide_border=true" alt="eco2" />
-  </a>
-</p>
+<!-- PINNED:END -->
 
 ---
 
