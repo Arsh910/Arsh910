@@ -67,7 +67,7 @@ jobs:
           def card(r):
               return (f'<a href="https://github.com/{user}/{r}">'
                       f'<img src="https://github-readme-stats.vercel.app/api/pin/'
-                      f'?username={user}&repo={r}&theme={theme}&hide_border=true" alt="{r}" /></a>')
+                      f'?username={user}&repo={r}&theme={theme}&hide_border=true&v=1" alt="{r}" /></a>')
 
           cards = [card(r) for r in repos]
           rows = []
