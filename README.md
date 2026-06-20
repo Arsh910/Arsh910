@@ -101,9 +101,11 @@
   (see the workflow file). Until then, it just shows what's typed here manually.
   Keep the START/END comment markers — the action replaces everything between them.
 -->
+<p align="center">
 <!-- BLOG-POST-LIST:START -->
-- [How to Build a Random Video Chat Web App with WebRTC, WebSocket and Django](https://dev.to/arshdeep_palial_c966081e6/how-to-build-a-random-video-chat-web-app-withwebrtc-websocket-and-django-3ba3)
+<a href="https://dev.to/arshdeep_palial_c966081e6/how-to-build-a-random-video-chat-web-app-withwebrtc-websocket-and-django-3ba3">How to Build a Random Video Chat Web App with WebRTC, WebSocket and Django</a><br>
 <!-- BLOG-POST-LIST:END -->
+</p>
 
 <p align="center">
   <a href="https://dev.to/arshdeep_palial_c966081e6"><b>→ Read more on my dev.to blog</b></a>
@@ -115,10 +117,10 @@
 
 <p align="center">
   <!-- EDIT each link. Delete any you don't have yet. -->
-  <a href="https://linkedin.com/in/your-handle">
+  <a href="https://www.linkedin.com/in/arshdeep-palial">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="mailto:your.email@example.com">
+  <a href="mailto:arshdeeppalial@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
   <a href="https://dev.to/arshdeep_palial_c966081e6">
