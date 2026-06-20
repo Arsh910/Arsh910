@@ -31,3 +31,6 @@ jobs:
         with:
           feed_list: "https://dev.to/feed/arshdeep_palial_c966081e6"
           max_post_count: 5
+          # Output each post as a centered-friendly link + line break
+          # (instead of a Markdown bullet, which can't be centered).
+          template: '<a href="$url">$title</a><br>'
