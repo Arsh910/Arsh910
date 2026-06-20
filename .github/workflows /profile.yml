@@ -1,0 +1,100 @@
+# =============================================================================
+#  profile.yml — keeps your profile README in sync automatically.
+#
+#  Does TWO things on every run:
+#    1. Updates "📌 Pinned Projects"  from your GitHub pinned repos
+#    2. Updates "📝 Latest Blog Posts" from your dev.to feed
+#
+#  WHERE THIS GOES:
+#  In your  Arsh910  repo:
+#      .github/workflows/profile.yml
+#  (If you added the two separate workflow files earlier, delete them —
+#   this single file replaces both.)
+#
+#  Runs every 6 hours and on manual trigger (Actions tab -> Run workflow).
+#
+#  TOKEN NOTE (only matters for the pinned-repos part):
+#  It first tries the built-in GITHUB_TOKEN. If your pinned cards don't update
+#  (the log prints "No pinned repos returned"), create a Personal Access Token:
+#    1. github.com/settings/tokens -> Tokens (classic) -> Generate new token
+#    2. Scope: read:user  (and public_repo)
+#    3. Arsh910 repo -> Settings -> Secrets and variables -> Actions
+#       -> New repository secret named  PINNED_TOKEN , paste the token.
+#  The blog part needs no token.
+# =============================================================================
+
+name: profile
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-profile:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ secrets.PINNED_TOKEN || secrets.GITHUB_TOKEN }}
+      USERNAME: Arsh910
+      THEME: tokyonight
+    steps:
+      - uses: actions/checkout@v4
+
+      # ---- 1. Sync pinned repos into README (writes file, no commit yet) ----
+      - name: Sync pinned repos
+        run: |
+          python3 - <<'PY'
+          import json, os, re, subprocess
+
+          user  = os.environ["USERNAME"]
+          theme = os.environ["THEME"]
+
+          query = ('{ user(login:"%s"){ pinnedItems(first:6, types:[REPOSITORY]) '
+                   '{ nodes { ... on Repository { name } } } } }') % user
+          out = subprocess.run(
+              ["gh", "api", "graphql", "-f", f"query={query}"],
+              capture_output=True, text=True, check=True,
+          ).stdout
+          repos = [n["name"] for n in json.loads(out)["data"]["user"]["pinnedItems"]["nodes"]]
+
+          if not repos:
+              print("No pinned repos returned (token may lack access). Skipping pin sync.")
+              raise SystemExit(0)
+
+          def card(r):
+              return (f'<a href="https://github.com/{user}/{r}">'
+                      f'<img src="https://github-readme-stats.vercel.app/api/pin/'
+                      f'?username={user}&repo={r}&theme={theme}&hide_border=true" alt="{r}" /></a>')
+
+          cards = [card(r) for r in repos]
+          rows = []
+          for i in range(0, len(cards), 2):
+              pair = "\n  ".join(cards[i:i+2])
+              rows.append(f'<p align="center">\n  {pair}\n</p>')
+          block = "\n" + "\n".join(rows) + "\n"
+
+          with open("README.md", encoding="utf-8") as f:
+              content = f.read()
+
+          new = re.sub(
+              r"(<!-- PINNED:START -->).*?(<!-- PINNED:END -->)",
+              lambda m: m.group(1) + block + m.group(2),
+              content, flags=re.DOTALL,
+          )
+          with open("README.md", "w", encoding="utf-8") as f:
+              f.write(new)
+          print("Synced pinned repos:", ", ".join(repos))
+          PY
+
+      # ---- 2. Sync blog posts AND commit both changes in one go ----
+      - name: Sync blog posts
+        uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          feed_list: "https://dev.to/feed/arshdeep_palial_c966081e6"
+          max_post_count: 5
+          template: '<a href="$url">$title</a><br>'
+          commit_message: "chore: sync pinned repos and blog posts"
+          gh_token: ${{ secrets.GITHUB_TOKEN }}
