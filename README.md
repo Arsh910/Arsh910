@@ -40,6 +40,29 @@
 
 ---
 
+<h3 align="center">📌 Featured Projects</h3>
+
+<!-- These render as clickable repo cards. Swap the repo= names for whichever
+     repos you want to feature. Order them best-first. -->
+<p align="center">
+  <a href="https://github.com/Arsh910/Anet">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Arsh910&repo=Anet&theme=tokyonight&hide_border=true" alt="Anet" />
+  </a>
+  <a href="https://github.com/Arsh910/RandomVideo-Chat-app">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Arsh910&repo=RandomVideo-Chat-app&theme=tokyonight&hide_border=true" alt="RandomVideo-Chat-app" />
+  </a>
+</p>
+<p align="center">
+  <a href="https://github.com/Arsh910/collabus">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Arsh910&repo=collabus&theme=tokyonight&hide_border=true" alt="collabus" />
+  </a>
+  <a href="https://github.com/Arsh910/eco2">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Arsh910&repo=eco2&theme=tokyonight&hide_border=true" alt="eco2" />
+  </a>
+</p>
+
+---
+
 <h3 align="center">🛠️ Tech Stack</h3>
 
 <p align="center"><b>Languages</b></p>
