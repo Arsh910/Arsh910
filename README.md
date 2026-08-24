@@ -43,7 +43,7 @@ Most of my projects begin with a problem in my own life. I build to remove frict
 What I'm looking for is simple: people who refuse to compromise on quality — who build thoughtful design *and* solid systems because they genuinely care about the person on the other side of the screen. If that sounds like the way you think, **let's connect.**
 
 <p align="center">
-  🔭 Currently building <b>ANet</b> &nbsp;·&nbsp; 💼 Open to <b>Software Engineer</b> roles &amp; internships &nbsp;·&nbsp; 📫 <b>your.email@example.com</b> <!-- EDIT -->
+  🔭 Currently building <b>ANet</b> &nbsp;·&nbsp; 💼 Open to <b>Software Engineer</b> roles &amp; internships &nbsp;·&nbsp; 📫 <b>arshdeeppalial@gmail.com</b> <!-- EDIT -->
 </p>
 
 ---
