@@ -42,10 +42,6 @@ Most of my projects begin with a problem in my own life. I build to remove frict
 
 What I'm looking for is simple: people who refuse to compromise on quality — who build thoughtful design *and* solid systems because they genuinely care about the person on the other side of the screen. If that sounds like the way you think, **let's connect.**
 
-<p align="center">
-  🔭 Currently building <b>ANet</b> &nbsp;·&nbsp; 💼 Open to <b>Software Engineer</b> roles &amp; internships &nbsp;·&nbsp; 📫 <b>arshdeeppalial@gmail.com</b> <!-- EDIT -->
-</p>
-
 ---
 
 <h3 align="center">📌 Pinned Projects</h3>
@@ -63,6 +59,9 @@ What I'm looking for is simple: people who refuse to compromise on quality — w
   </a>
   <a href="https://github.com/Arsh910/AnetPacks">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=Arsh910&repo=AnetPacks&theme=tokyonight&hide_border=true&v=1" alt="AnetPacks" />
+  </a>
+    <a href="https://github.com/Arsh910/Ecoos3">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Arsh910&repo=Ecoos3&theme=tokyonight&hide_border=true&v=1" alt="Ecoos" />
   </a>
 </p>
 <!-- PINNED:END -->
