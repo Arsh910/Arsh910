@@ -63,7 +63,7 @@ What I'm looking for is simple: people who refuse to compromise on quality — w
   </a>
   <br/>
   <a href="https://github.com/Arsh910/Ecoos3">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Arsh910&repo=Ecoos3&theme=tokyonight&hide_border=true&v=1" alt="Ecoos" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Arsh910&repo=Ecoos3&theme=tokyonight&hide_border=true&v=1" alt="Ecoos3" />
   </a>
 </p>
 <!-- PINNED:END -->
